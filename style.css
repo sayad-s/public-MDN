@@ -1,7 +1,5 @@
 ul {
     display: flex;
-    /* justify-content: center; */
-    /* margin-right : 5px; */
     list-style: none;
 }
 .flexbox-container {
