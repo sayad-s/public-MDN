@@ -1,24 +1,49 @@
 ul {
     display: flex;
+    justify-content: space-evenly;
     list-style: none;
+    gap: 50px;
 }
-.flexbox-container {
+ol {
+    list-style: circle;
+}
+body {
+    background-color: rgb(146, 145, 145);
+}
+.header {
+    text-align: center;
+}
+
+.article {
+    background-color: white;
+    width: 100%;
+    padding: 0 5px;
+}
+.search-bar {
     display: flex;
-    background-color: aqua;
+    gap: 10px;
+}
+.navbar {
+    display: flex;
     justify-content: center;
+    background-color: pink;
+    margin: 50px;
+    gap: 100px;
 }
-.flexbox-item {
-    width: 200px;
-    margin: 10px;
-    border: 3px solid #333;
-    background-color: #dfdfdf;
+.sidebar {
+    background-color: pink;
+    width: 30%;
+    align-items: center;
 }
-.flexbox-item-1 {
-    min-height: 100px;
+footer {
+    background-color: white;
+    max-height: 40px;
+    margin: 50px;
+    padding: 10px;
 }
-.flexbox-item-2 {
-    min-height: 200px;
-}
-.flexbox-item-3 {
-    min-height: 300px;
+.main {
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+    gap: 10px;
 }
